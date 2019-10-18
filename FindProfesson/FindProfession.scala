@@ -1,5 +1,8 @@
 object FindProfession extends App {
 
+  val ProfessionDoctor = "Doctor"
+  val ProfessionEngineer = "Engineer"
+
   def findProfession(level: Int, pos: Int): String = {
     var curProf = ProfessionEngineer
 
@@ -30,8 +33,6 @@ object FindProfession extends App {
   }
 
   def test() : Unit = {
-    val ProfessionDoctor = "Doctor"
-    val ProfessionEngineer = "Engineer"
 
     val levelParam = 3
     val posParam = 3
@@ -44,4 +45,5 @@ object FindProfession extends App {
   }
 
   test()
+
 }
